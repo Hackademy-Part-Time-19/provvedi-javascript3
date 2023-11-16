@@ -21,7 +21,7 @@ while(indice<array.length){
 
 
 
-
+    
     let soldi= 3000
 
     let saluto
@@ -72,9 +72,13 @@ while(indice<array.length){
 
 
     while(n<=400){
-       if(n%20==0){
+       if(!(n%20==0)){
         console.log(n+"è divisibile per 20")
         n++
        }
         
     }
+
+
+
+   
