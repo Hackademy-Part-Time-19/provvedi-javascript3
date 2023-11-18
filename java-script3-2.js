@@ -1,28 +1,4 @@
-let array = ["franco","gennaro","valerio","giulia","eugenio"]
-
-let indice = 0
-
-while(indice<array.length){
-    console.log(array[indice])
-    indice++}
-
-
-
-    while(indice<array.length){
-     console.log(array[indice])
-     indice++
-     let indice2=0
-     while(indice2<array[indice].length){
-          console.log(array[indice][indice2])
-          indice2++
-     }
-     
-    }
-
-
-
-    
-    let soldi= 3000
+let soldi= 3000
 
     let saluto
 
@@ -64,21 +40,3 @@ while(indice<array.length){
         
 
     }
-
-
-
-
- n=0
-
-
-    while(n<=400){
-       if(!(n%20==0)){
-        console.log(n+"è divisibile per 20")
-        n++
-       }
-        
-    }
-
-
-
-   
